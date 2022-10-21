@@ -37,6 +37,9 @@ Traceback (most recent call last):
 ImportError: cannot import name 'CommandError' from 'greendb' (/usr/bin/greendb.py)
 Scalene: Program did not run for long enough to profile.
 
+$ python -O /usr/bin/scalene-import-test
+here
+
 ```
 
 
