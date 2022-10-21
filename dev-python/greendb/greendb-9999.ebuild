@@ -1,0 +1,25 @@
+# Copyright 1999-2022 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+PYTHON_COMPAT=( python3_{9..11} )
+
+inherit git-r3
+inherit distutils-r1
+
+DESCRIPTION="server frontend for lmdb"
+HOMEPAGE="https://github.com/coleifer/greendb"
+EGIT_REPO_URI="https://github.com/coleifer/greendb.git"
+
+LICENSE="BSD"
+SLOT="0"
+KEYWORDS=""
+
+
+RDEPEND="
+	dev-python/lmdb[${PYTHON_USEDEP}]
+	dev-python/gevent[${PYTHON_USEDEP}]
+	dev-python/msgpack[${PYTHON_USEDEP}]
+"
+
+DEPEND="${RDEPEND}"
