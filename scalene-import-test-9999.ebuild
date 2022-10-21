@@ -18,6 +18,7 @@ KEYWORDS=""
 
 RDEPEND="
 	dev-python/click[${PYTHON_USEDEP}]
+	dev-python/greendb[${PYTHON_USEDEP}]
 "
 
 DEPEND="${RDEPEND}"
