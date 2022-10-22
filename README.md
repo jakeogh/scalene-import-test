@@ -2,6 +2,8 @@ This repo is intended to reproduce a error I am encountering while trying to use
 
 The problem was encountered when trying to use scalene to profile a application that uses https://github.com/coleifer/greendb, this repo is a minimal test case demonstrating the problem (without installing greendb).
 
+The repo https://github.com/jakeogh/test-single-exception-class-top-module is used to minimally trigger the problem greendb triggers.
+
 Install:
 ```
 $ git clone https://github.com/jakeogh/scalene-import-test
