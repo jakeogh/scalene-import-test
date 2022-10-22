@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-# this triggers the error
-from greendb import CommandError
+# this is the original line that triggers the error
+# from https://github.com/coleifer/greendb
+# from greendb import CommandError
 
-# this does not https://github.com/jakeogh/test-single-exception-class
-# from test_single_exception_class import SomeValueError
+
+from test_single_exception_class_top_module import CommandError
 
 
 def cli() -> None:
-    print("here")
+    print("scaline-import-test: no error")

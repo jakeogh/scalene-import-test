@@ -8,18 +8,13 @@ inherit git-r3
 inherit distutils-r1
 
 DESCRIPTION="server frontend for lmdb"
-HOMEPAGE="https://github.com/coleifer/greendb"
-EGIT_REPO_URI="https://github.com/coleifer/greendb.git"
+HOMEPAGE="https://github.com/jakeogh/test-single-exception-class-top-module"
+EGIT_REPO_URI="https://github.com/jakeogh/test-single-exception-class-top-module.git"
 
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS=""
 
-
-RDEPEND="
-	dev-python/lmdb[${PYTHON_USEDEP}]
-	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-"
+RDEPEND=""
 
 DEPEND="${RDEPEND}"

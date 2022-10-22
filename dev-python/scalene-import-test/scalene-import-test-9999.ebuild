@@ -15,10 +15,7 @@ LICENSE="BSD"
 SLOT="0"
 KEYWORDS=""
 
-# https://github.com/coleifer/greendb/blob/master/greendb.py#L88
-RDEPEND="
-	dev-python/greendb[${PYTHON_USEDEP}]
-"
+RDEPEND=""
 
 DEPEND="${RDEPEND}"
 
